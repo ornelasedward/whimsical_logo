@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.diamond-shape {
+  background: #781fd5;
+  height: 60px;
+  transform: rotate(45deg);
+  width: 60px;
+}
+
+.diamond-shape-2 {
+  border: 5px solid #9088ef;
+  height: 40px;
+  width: 45px;
+}

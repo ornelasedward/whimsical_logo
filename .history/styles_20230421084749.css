@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+}
+
+.diamond-shape {
+  background: #781fd5;
+  height: 60px;
+  transform: rotate(45deg);
+  width: 60px;
+  top: 0;
+  left: 0;
+}
+
+.diamond-shape-2 {
+  transform: rotate(45deg) translate(40%, -40%);
+  border: 5px solid #9088ef;
+  height: 50px;
+  width: 50px;
+}

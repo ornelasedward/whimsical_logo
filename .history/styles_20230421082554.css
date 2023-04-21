@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.diamond-shape {
+  background: #fff;
+  height: 60px;
+  text-align: center;
+  transform: rotate(45deg);
+  width: 60px;
+}
